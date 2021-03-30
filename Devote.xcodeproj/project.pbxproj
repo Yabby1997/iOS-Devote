@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1D0175E22613689400EA55DC /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0175E12613689400EA55DC /* BackgroundImageView.swift */; };
+		1D0175E5261373C200EA55DC /* NewTaskItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0175E4261373C200EA55DC /* NewTaskItemView.swift */; };
+		1D0175E826137C5300EA55DC /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0175E726137C5300EA55DC /* BlankView.swift */; };
 		1D9DC8B126130F2000A3870B /* DevoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9DC8B026130F2000A3870B /* DevoteApp.swift */; };
 		1D9DC8B326130F2000A3870B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9DC8B226130F2000A3870B /* ContentView.swift */; };
 		1D9DC8B526130F2200A3870B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D9DC8B426130F2200A3870B /* Assets.xcassets */; };
@@ -23,6 +25,8 @@
 
 /* Begin PBXFileReference section */
 		1D0175E12613689400EA55DC /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
+		1D0175E4261373C200EA55DC /* NewTaskItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskItemView.swift; sourceTree = "<group>"; };
+		1D0175E726137C5300EA55DC /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
 		1D9DC8AD26130F2000A3870B /* Devote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Devote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D9DC8B026130F2000A3870B /* DevoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevoteApp.swift; sourceTree = "<group>"; };
 		1D9DC8B226130F2000A3870B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -105,6 +109,8 @@
 			children = (
 				1D9DC8B226130F2000A3870B /* ContentView.swift */,
 				1D0175E12613689400EA55DC /* BackgroundImageView.swift */,
+				1D0175E4261373C200EA55DC /* NewTaskItemView.swift */,
+				1D0175E726137C5300EA55DC /* BlankView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -217,9 +223,11 @@
 				1D0175E22613689400EA55DC /* BackgroundImageView.swift in Sources */,
 				1D9DC8B326130F2000A3870B /* ContentView.swift in Sources */,
 				1DADC941261338AD00AA2DC3 /* Constant.swift in Sources */,
+				1D0175E826137C5300EA55DC /* BlankView.swift in Sources */,
 				1D9DC8BD26130F2200A3870B /* Devote.xcdatamodeld in Sources */,
 				1DD7B88726135E2F00A1771E /* HideKeyboard.swift in Sources */,
 				1D9DC8B126130F2000A3870B /* DevoteApp.swift in Sources */,
+				1D0175E5261373C200EA55DC /* NewTaskItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
