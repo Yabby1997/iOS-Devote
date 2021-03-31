@@ -21,6 +21,7 @@
 		1D9DC8C926130FB300A3870B /* sound-tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1D9DC8C626130FB300A3870B /* sound-tap.mp3 */; };
 		1D9DC8CA26130FB300A3870B /* sound-ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1D9DC8C726130FB300A3870B /* sound-ding.mp3 */; };
 		1DA37D3626141C2A008F2BEE /* CheckboxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA37D3526141C2A008F2BEE /* CheckboxStyle.swift */; };
+		1DA37D3926143068008F2BEE /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA37D3826143068008F2BEE /* SoundPlayer.swift */; };
 		1DADC941261338AD00AA2DC3 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DADC940261338AD00AA2DC3 /* Constant.swift */; };
 		1DD7B88726135E2F00A1771E /* HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD7B88626135E2F00A1771E /* HideKeyboard.swift */; };
 /* End PBXBuildFile section */
@@ -42,6 +43,7 @@
 		1D9DC8C626130FB300A3870B /* sound-tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-tap.mp3"; sourceTree = "<group>"; };
 		1D9DC8C726130FB300A3870B /* sound-ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-ding.mp3"; sourceTree = "<group>"; };
 		1DA37D3526141C2A008F2BEE /* CheckboxStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxStyle.swift; sourceTree = "<group>"; };
+		1DA37D3826143068008F2BEE /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
 		1DADC940261338AD00AA2DC3 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		1DD7B88626135E2F00A1771E /* HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				1DADC940261338AD00AA2DC3 /* Constant.swift */,
+				1DA37D3826143068008F2BEE /* SoundPlayer.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 				1DD7B88726135E2F00A1771E /* HideKeyboard.swift in Sources */,
 				1D9DC8B126130F2000A3870B /* DevoteApp.swift in Sources */,
 				1DA37D3626141C2A008F2BEE /* CheckboxStyle.swift in Sources */,
+				1DA37D3926143068008F2BEE /* SoundPlayer.swift in Sources */,
 				1D0175E5261373C200EA55DC /* NewTaskItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

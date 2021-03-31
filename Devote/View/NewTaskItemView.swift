@@ -53,13 +53,22 @@ struct NewTaskItemView: View {
                     .foregroundColor(.pink)
                     .font(.system(size: 24, weight: .bold, design: .rounded))
                 
-                Button(action: { addItem() }) {
+                Button(action: {
+                    addItem()
+                    playSound(sound: "sound-ding", type: "mp3")
+                    feedback.notificationOccurred(.success)
+                }) {
                     Spacer()
                     Text("SAVE")
                         .font(.system(size: 24, weight: .bold, design: .rounded))
                     Spacer()
                 }
                 .disabled(isButtonDisabled)
+                .onTapGesture {
+                    if isButtonDisabled {
+                        playSound(sound: "sound-tap", type: "mp3")
+                    }
+                }
                 .padding()
                 .foregroundColor(.white)
                 .background(isButtonDisabled ? Color.blue : Color.pink)
